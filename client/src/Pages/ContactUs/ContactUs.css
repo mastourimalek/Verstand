@@ -1,0 +1,35 @@
+.verstand {color:rgb(88, 195, 195) ;
+    animation: fadeIn; /* referring directly to the animation's @keyframe declaration */
+    animation-duration: 2s;}
+
+.contain {display: flex;
+flex-direction: row;
+justify-content: space-evenly;
+margin: auto;
+animation: backInRight; 
+animation-duration: 2s;
+text-align: center;
+max-width: 60%;
+}
+
+    
+
+
+.icon{width: 50px;
+margin-top: 35px;
+margin-bottom: 30px;
+
+}
+
+.icon:hover{animation: flip; 
+    animation-duration: 2s;
+}
+
+.icon2{
+    margin-top: 35px;
+    margin-bottom: 30px;
+    border-radius: 3%;
+    width: 50%;
+    border: 5px solid #05164494;
+    }
+    
